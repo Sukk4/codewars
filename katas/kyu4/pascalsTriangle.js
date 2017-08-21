@@ -1,6 +1,6 @@
 function pascalsTriangle(n) {
   //return a flat array representing the values of Pascal's Triangle to the n-th level
-  arr = [];
+  var arr = [];
   if (n > 0) arr.push(1);
   for (var i=1; i<n; i++){
     var tempArr = [];
